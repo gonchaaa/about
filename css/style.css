@@ -1,0 +1,396 @@
+#about {
+  width: 100%;
+  height: 70vh;
+  background-image: url(../image/inner_header_2\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+#about .us {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#about .us span {
+  line-height: 10%;
+  color: white;
+  font-size: 70px;
+  font-family: "Prata", serif;
+}
+#about .us p {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  color: #DFBA9F;
+}
+#about .us p a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+#about .us p a:hover {
+  color: #DFBA9F;
+}
+#about .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.463);
+}
+
+#cosmetic {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #F9F1EC;
+  position: relative;
+}
+#cosmetic .containers {
+  width: 100%;
+  height: 95vh;
+  background-color: white;
+  position: absolute;
+  top: 5%;
+}
+#cosmetic .containers .cosmetics {
+  width: 95%;
+  height: 80vh;
+  position: absolute;
+  top: 8%;
+  left: 2%;
+}
+#cosmetic .containers .cosmetics .main {
+  padding-top: 60px;
+}
+#cosmetic .containers .cosmetics .main p {
+  font-size: 50px;
+  line-height: 10%;
+  font-family: "Mrs Saint Delafield", serif;
+  color: #DFBA9F;
+}
+#cosmetic .containers .cosmetics .main h1 {
+  font-size: 40px;
+  font-family: "Prata", serif;
+}
+#cosmetic .containers .cosmetics .main span {
+  color: black;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+#cosmetic .containers .cosmetics .main .organic {
+  margin-top: 50px;
+  text-align: center;
+}
+#cosmetic .containers .cosmetics .main .organic i {
+  margin-left: 20px;
+  font-size: 70px;
+  color: #DFBA9F;
+}
+#cosmetic .containers .cosmetics .main .organic span {
+  margin-left: 10px;
+  color: black;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#cosmetic .containers .cosmetics .main .mores {
+  background-color: #DFBA9F;
+  width: 15%;
+  height: 50px;
+  margin-top: 50px;
+  position: absolute;
+  transition: 0.5s ease-in-out;
+}
+#cosmetic .containers .cosmetics .main .mores:hover {
+  background-color: black;
+}
+#cosmetic .containers .cosmetics .main .mores:hover a {
+  color: white;
+}
+#cosmetic .containers .cosmetics .main .mores:hover::before {
+  background-color: white;
+}
+#cosmetic .containers .cosmetics .main .mores a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  margin: 10px 0 0 70px;
+}
+#cosmetic .containers .cosmetics .main .mores::before {
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 0.5px;
+  top: 45%;
+  left: 10%;
+  background-color: black;
+}
+#cosmetic .containers .cosmetics .iMg {
+  position: relative;
+}
+#cosmetic .containers .cosmetics .iMg .overlay4 {
+  width: 0%;
+  height: 1px;
+  background-color: white;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+#cosmetic .containers .cosmetics .iMg .overlay3 {
+  width: 0.5px;
+  height: 0vh;
+  background-color: white;
+  position: absolute;
+  bottom: 5%;
+  left: 95%;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+#cosmetic .containers .cosmetics .iMg::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 0.5px;
+  background-color: white;
+  top: 5%;
+  left: 5%;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+#cosmetic .containers .cosmetics .iMg::after {
+  content: "";
+  position: absolute;
+  width: 0.5px;
+  height: 0;
+  background-color: white;
+  top: 5%;
+  left: 5%;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+#cosmetic .containers .cosmetics .iMg:hover::before {
+  opacity: 1;
+  width: 90%;
+}
+#cosmetic .containers .cosmetics .iMg:hover::after {
+  height: 60vh;
+  opacity: 1;
+}
+#cosmetic .containers .cosmetics .iMg:hover .overlay4 {
+  opacity: 1;
+  width: 90%;
+}
+#cosmetic .containers .cosmetics .iMg:hover .overlay3 {
+  height: 60vh;
+  opacity: 1;
+}
+#cosmetic .containers .cosmetics .iMg .img-one {
+  position: absolute;
+  width: 35%;
+  height: 18vh;
+  top: 73%;
+  left: 2%;
+  z-index: 999;
+  background-color: black;
+}
+#cosmetic .containers .cosmetics .iMg .img-one .icons {
+  margin: 25px 0 0 30px;
+  padding-left: 6px;
+  background-color: white;
+  height: 10vh;
+  width: 26%;
+  border-radius: 10mm;
+}
+#cosmetic .containers .cosmetics .iMg .img-one .icons i {
+  display: inline-block;
+  margin: 5px 7px 0 0;
+  color: #DFBA9F;
+  font-size: 50px;
+  transition: 0.3s ease-in-out;
+}
+#cosmetic .containers .cosmetics .iMg .img-one .icons i:hover {
+  color: black;
+}
+#cosmetic .containers .cosmetics .iMg .img-one p {
+  display: inline-block;
+  padding-top: 30px;
+  color: #DFBA9F;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+#cosmetic .containers .cosmetics .iMg .img-one p span {
+  color: white;
+}
+
+#text {
+  width: 100%;
+  height: 55vh;
+  background-color: #F9F1EC;
+  position: relative;
+}
+#text::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 10vh;
+  top: 10%;
+  left: 50%;
+  background-color: red;
+}
+#text .txt {
+  text-align: center;
+  width: 80%;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+#text .txt p {
+  font-size: 17px;
+}
+
+@media (max-width: 576px) {
+  #about {
+    height: 30vh;
+  }
+  #about .us span {
+    font-size: 40px;
+  }
+  #about .us p {
+    font-size: 15px;
+  }
+  #cosmetic {
+    min-height: 100vh;
+  }
+  #cosmetic .containers {
+    height: 95vh;
+    top: 3%;
+  }
+  #cosmetic .containers .cosmetics {
+    top: 5%;
+    left: 2%;
+    text-align: center;
+  }
+  #cosmetic .containers .cosmetics .main {
+    padding-top: 60px;
+  }
+  #cosmetic .containers .cosmetics .main .organic i {
+    font-size: 20px;
+  }
+  #cosmetic .containers .cosmetics .main .organic span {
+    display: inline-block;
+    margin: 0 0 60px 10px;
+  }
+  #cosmetic .containers .cosmetics .main .mores {
+    display: none;
+  }
+  #cosmetic .containers .cosmetics .iMg {
+    position: absolute;
+    top: 120%;
+  }
+  #cosmetic .containers .cosmetics .iMg .overlay4 {
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+  }
+  #cosmetic .containers .cosmetics .iMg .overlay3 {
+    width: 0.5px;
+    height: 0vh;
+    background-color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 95%;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+  }
+  #cosmetic .containers .cosmetics .iMg::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 0.5px;
+    background-color: white;
+    top: 5%;
+    left: 5%;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+  }
+  #cosmetic .containers .cosmetics .iMg::after {
+    content: "";
+    position: absolute;
+    width: 0.5px;
+    height: 0;
+    background-color: white;
+    top: 5%;
+    left: 5%;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+  }
+  #cosmetic .containers .cosmetics .iMg:hover::before {
+    opacity: 1;
+    width: 90%;
+  }
+  #cosmetic .containers .cosmetics .iMg:hover::after {
+    height: 60vh;
+    opacity: 1;
+  }
+  #cosmetic .containers .cosmetics .iMg:hover .overlay4 {
+    opacity: 1;
+    width: 90%;
+  }
+  #cosmetic .containers .cosmetics .iMg:hover .overlay3 {
+    height: 60vh;
+    opacity: 1;
+  }
+  #cosmetic .containers .cosmetics .iMg .img-one {
+    position: absolute;
+    width: 35%;
+    height: 18vh;
+    top: 69%;
+    left: 2%;
+    z-index: 999;
+    background-color: black;
+  }
+  #cosmetic .containers .cosmetics .iMg .img-one .icons {
+    display: none;
+  }
+  #cosmetic .containers .cosmetics .iMg .img-one p {
+    display: inline-block;
+    padding-top: 30px;
+    color: #DFBA9F;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+  }
+  #cosmetic .containers .cosmetics .iMg .img-one p span {
+    color: white;
+  }
+  #text {
+    width: 100%;
+    height: 55vh;
+    background-color: #F9F1EC;
+    position: relative;
+  }
+  #text::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 10vh;
+    top: 10%;
+    left: 50%;
+    background-color: red;
+  }
+  #text .txt {
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+  }
+  #text .txt p {
+    font-size: 17px;
+  }
+}/*# sourceMappingURL=style.css.map */
